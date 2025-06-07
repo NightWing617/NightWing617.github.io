@@ -1,0 +1,94 @@
+
+        .floral-bg {
+            background-image: url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1600&q=80");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: #faf1f4;
+        }
+        }
+        .service-icon {
+            width: 70px;
+            height: 70px;
+            background-color: rgba(245, 240, 235, 0.7);
+            border: 1px solid #E8C4C4;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+            transition: all 0.3s ease;
+        }
+        .service-icon:hover {
+            background-color: rgba(232, 196, 196, 0.4);
+            transform: scale(1.05);
+        }
+        .treatment-card {
+            transition: all 0.3s ease;
+            border: 1px solid #F5F0EB;
+        }
+        .treatment-card:hover {
+            transform: translateY(-5px);
+            border-color: #E8C4C4;
+            box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05);
+        }
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .gallery-item {
+            height: 250px;
+            overflow: hidden;
+            border-radius: 10px;
+            position: relative;
+        }
+        .offer-card {
+            position: relative;
+            overflow: hidden;
+        }
+        .offer-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, rgba(245,240,235,0.8), rgba(232,196,196,0.6));
+            z-index: -1;
+        }
+        .map-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+        .map-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            border: 1px solid #F5F0EB;
+        }
+        .testimonial-card {
+            background: linear-gradient(to bottom right, #FFFFFF, #F5F0EB);
+        }
+        .qr-container {
+            width: 200px;
+            height: 200px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .social-icon {
+            transition: all 0.3s ease;
+        }
+        .social-icon:hover {
+            transform: scale(1.1);
+        }
+    

@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Penny Marshall Aesthetics &amp; Beauty | Athlone, Pietermaritzburg</title>
+
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+
+<!-- Tailwind config and CDN -->
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          'beige': '#F5F0EB',
+          'ivory': '#FFFFFF',
+          'charcoal': '#333333',
+          'blush': '#E8C4C4',
+          'rosegold': '#B76E79'
+        },
+        fontFamily: {
+          'heading': ['Lora', 'serif'],
+          'body': ['Open Sans', 'sans-serif']
+        }
+      }
+    }
+  }
+</script>
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="font-body text-charcoal bg-ivory">
+<!-- Navigation -->
+<nav class="bg-beige sticky top-0 z-50 shadow-sm">
+<div class="container mx-auto px-4">
+<div class="flex justify-between items-center h-20">
+<div class="flex items-center">
+<a class="font-heading text-2xl font-semibold text-charcoal" href="#">Penny Marshall<span class="text-rosegold">.</span></a>
+</div>
+<!-- Desktop Nav -->
+<div class="hidden md:flex items-center space-x-8">
+<a class="hover:text-blush transition-colors duration-300" href="#treatments">Treatments</a>
+<a class="hover:text-blush transition-colors duration-300" href="#book">Book Online</a>
+<a class="hover:text-blush transition-colors duration-300" href="#about">About</a>
+<a class="hover:text-blush transition-colors duration-300" href="#offers">Offers</a>
+<a class="bg-blush text-ivory px-4 py-2 rounded-full font-medium hover:bg-rosegold transition-colors duration-300" href="#contact">
+<i class="fas fa-calendar-check mr-2"></i>Book Now
+                    </a>
+</div>
+<!-- Mobile Menu Button -->
+<div class="md:hidden">
+<button class="text-charcoal" id="mobile-menu-button">
+<i class="fas fa-bars text-2xl"></i>
+</button>
+</div>
+</div>
+<!-- Mobile Menu -->
+<div class="hidden py-4 px-4 bg-beige border-t border-rosegold" id="mobile-menu">
+<div class="flex flex-col space-y-4">
+<a class="hover:text-blush transition-colors duration-300" href="#treatments">Treatments</a>
+<a class="hover:text-blush transition-colors duration-300" href="#book">Book Online</a>
+<a class="hover:text-blush transition-colors duration-300" href="#about">About</a>
+<a class="hover:text-blush transition-colors duration-300" href="#offers">Offers</a>
+<a class="bg-blush text-ivory px-4 py-2 rounded-full font-medium text-center hover:bg-rosegold transition-colors duration-300" href="#contact">Book Now</a>
+</div>
+</div>
+</div>
+</nav>
+<!-- Hero Section -->
+<section class="py-20 md:py-32 floral-bg bg-beige">
+<div class="container mx-auto px-4 text-center">
+<h1 class="font-heading text-5xl md:text-6xl font-bold text-charcoal mb-6">
+                Penny Marshall <span class="text-rosegold">Aesthetics &amp; Beauty</span>
+</h1>
+<p class="text-xl md:text-2xl text-charcoal max-w-2xl mx-auto mb-10">
+                Elegant, personalized beauty &amp; aesthetic treatments in Pietermaritzburg
+            </p>
+<div class="flex flex-col sm:flex-row justify-center gap-4">
+<a class="bg-blush text-ivory px-8 py-4 rounded-full font-medium text-lg hover:bg-rosegold transition-colors duration-300 inline-flex items-center justify-center" href="#book">
+<i class="fas fa-calendar-check mr-2"></i>Book Your Appointment
+                </a>
+<a class="border-2 border-blush text-blush px-8 py-4 rounded-full font-medium text-lg hover:bg-blush hover:text-ivory transition-colors duration-300 inline-flex items-center justify-center" href="#treatments">
+<i class="fas fa-spa mr-2"></i>View Services
+                </a>
+</div>
+</div>
+</section>
+<!-- Services Overview -->
+<section class="py-16 bg-ivory">
+<div class="container mx-auto px-4">
+<div class="text-center mb-16">
+<h2 class="font-heading text-3xl md:text-4xl font-bold text-charcoal mb-4">Our Signature Treatments</h2>
+<div class="h-1 w-20 bg-blush mx-auto"></div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-10">
+<div class="text-center">
+<div class="service-icon mx-auto">
+<i class="fas fa-feather text-3xl text-rosegold"></i>
+</div>
+<h3 class="font-heading text-xl font-bold mb-3">Permanent Makeup</h3>
+<p class="text-gray-600">Premium microblading and cosmetic tattooing for perfectly defined features that last.</p>
+</div>
+<div class="text-center">
+<div class="service-icon mx-auto">
+<i class="fas fa-hand-sparkles text-3xl text-rosegold"></i>
+</div>
+<h3 class="font-heading text-xl font-bold mb-3">Nail Treatments</h3>
+<p class="text-gray-600">Revitalizing manicures and pedicures with therapeutic paraffin spa treatments.</p>
+</div>
+<div class="text-center">
+<div class="service-icon mx-auto">
+<i class="fas fa-leaf text-3xl text-rosegold"></i>
+</div>
+<h3 class="font-heading text-xl font-bold mb-3">Aesthetic Care</h3>
+<p class="text-gray-600">Skin rejuvenation with Dermastine, NeoStrata, and RégimA for a radiant complexion.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Treatments - Service Menu -->
+<section class="py-20 bg-beige" id="treatments">
+<div class="container mx-auto px-4">
+<div class="text-center mb-16">
+<h2 class="font-heading text-3xl md:text-4xl font-bold text-charcoal mb-4">Our Treatments</h2>
+<p class="text-lg text-gray-600 max-w-2xl mx-auto">Experience premium beauty services with our expertly curated treatments</p>
+<div class="h-1 w-20 bg-blush mx-auto mt-4"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Waxing Treatments -->
+<div class="treatment-card bg-ivory p-8 rounded-xl">
+<div class="flex items-center mb-6">
+<div class="w-12 h-12 rounded-full bg-blush flex items-center justify-center mr-4">
+<i class="fas fa-feather text-white text-xl"></i>
+</div>
+<h3 class="font-heading text-2xl font-bold">Waxing Treatments</h3>
+</div>
+<div class="space-y-6">
+<div class="border-b border-gray-100 pb-4">
+<div class="flex justify-between items-center mb-2">
+<h4 class="font-bold text-lg">Brazilian Precision Wax</h4>
+<span class="text-rosegold font-medium">R220</span>
+</div>
+<p class="text-gray-600">Hygienic, ultra-smooth finish for sensitive skin with premium wax.</p>
+</div>
+<div class="border-b border-gray-100 pb-4">
+<div class="flex justify-between items-center mb-2">
+<h4 class="font-bold text-lg">Full Leg &amp; Bikini Combo</h4>
+<span class="text-rosegold font-medium">R360</span>
+</div>
+<p class="text-gray-600">Silky smooth finish that lasts longer with reduced regrowth.</p>
+</div>
+<div class="border-b border-gray-100 pb-4">
+<div class="flex justify-between items-center mb-2">
+<h4 class="font-bold text-lg">Underarm Wax</h4>
+<span class="text-rosegold font-medium">R120</span>
+</div>
+<p class="text-gray-600">Gentle, effective treatment to keep underarms smooth and fresh.</p>
+</div>
+</div>
+</div>
+<!-- Nail Treatments -->
+<div class="treatment-card bg-ivory p-8 rounded-xl">
+<div class="flex items-center mb-6">
+<div class="w-12 h-12 rounded-full bg-blush flex items-center justify-center mr-4">
+<i class="fas fa-hand-sparkles text-white text-xl"></i>
+</div>
+<h3 class="font-heading text-2xl font-bold">Nail Treatments</h3>
+</div>
+<div class="space-y-6">
+<div class="border-b border-gray-100 pb-4">
+<div class="flex justify-between items-center mb-2">
+<h4 class="font-bold text-lg">Therapeutic Paraffin Spa Pedicure</h4>
+<span class="text-rosegold font-medium">R350</span>
+</div>
+<p class="text-gray-600">Deeply moisturizing treatment with warm paraffin wax infusion.</p>
+</div>
+<div class="border-b border-gray-100 pb-4">
+<div class="flex justify-between items-center mb-2">
+<h4 class="font-bold text-lg">Classic Manicure</h4>
+<span class="text-rosegold font-medium">R220</span>
+</div>
+<p class="text-gray-600">Nourishing cuticle care and expertly shaped nails with premium polish.</p>
+</div>
+<div class="border-b border-gray-100 pb-4">
+<div class="flex justify-between items-center mb-2">
+<h4 class="font-bold text-lg">Gel Nail Extensions</h4>
+<span class="text-rosegold font-medium">R450</span>
+</div>
+<p class="text-gray-600">Premium, durable gel enhancements that maintain their shine.</p>
+</div>
+</div>
+</div>
+<!-- Facials & Skin -->
+<div class="treatment-card bg-ivory p-8 rounded-xl">
+<div class="flex items-center mb-6">
+<div class="w-12 h-12 rounded-full bg-blush flex items-center justify-center mr-4">
+<i class="fas fa-leaf text-white text-xl"></i>
+</div>
+<h3 class="font-heading text-2xl font-bold">Facials &amp; Skin</h3>
+</div>
+<div class="space-y-6">
+<div class="border-b border-gray-100 pb-4">
+<div class="flex justify-between items-center mb-2">
+<h4 class="font-bold text-lg">Deep Cleansing Facial</h4>
+<span class="text-rosegold font-medium">R450</span>
+</div>
+<p class="text-gray-600">Purifying treatment to eliminate toxins and unclog pores.</p>
+</div>
+<div class="border-b border-gray-100 pb-4">
+<div class="flex justify-between items-center mb-2">
+<h4 class="font-bold text-lg">Anti-Aging Rejuvenation</h4>
+<span class="text-rosegold font-medium">R520</span>
+</div>
+<p class="text-gray-600">Advanced regimen targeting fine lines and loss of firmness.</p>
+</div>
+<div class="border-b border-gray-100 pb-4">
+<div class="flex justify-between items-center mb-2">
+<h4 class="font-bold text-lg">LED Light Therapy</h4>
+<span class="text-rosegold font-medium">R380</span>
+</div>
+<p class="text-gray-600">Specialized treatment to reduce inflammation and stimulate collagen.</p>
+</div>
+</div>
+</div>
+<!-- Permanent Makeup -->
+<div class="treatment-card bg-ivory p-8 rounded-xl">
+<div class="flex items-center mb-6">
+<div class="w-12 h-12 rounded-full bg-blush flex items-center justify-center mr-4">
+<i class="fas fa-pencil-alt text-white text-xl"></i>
+</div>
+<h3 class="font-heading text-2xl font-bold">Permanent Makeup</h3>
+</div>
+<div class="space-y-6">
+<div class="border-b border-gray-100 pb-4">
+<div class="flex justify-between items-center mb-2">
+<h4 class="font-bold text-lg">Microblading Eyebrows</h4>
+<span class="text-rosegold font-medium">R2000</span>
+</div>
+<p class="text-gray-600">Natural-looking hair strokes for perfectly defined brows.</p>
+</div>
+<div class="border-b border-gray-100 pb-4">
+<div class="flex justify-between items-center mb-2">
+<h4 class="font-bold text-lg">Eyeliner Enhancement</h4>
+<span class="text-rosegold font-medium">R1800</span>
+</div>
+<p class="text-gray-600">Smudge-proof definition that enhances your eye shape.</p>
+</div>
+<div class="border-b border-gray-100 pb-4">
+<div class="flex justify-between items-center mb-2">
+<h4 class="font-bold text-lg">Lip Blushing</h4>
+<span class="text-rosegold font-medium">R2200</span>
+</div>
+<p class="text-gray-600">Natural tint for fuller-looking lips with balanced color.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Book Online -->
+<section class="py-20 bg-ivory" id="book">
+<div class="container mx-auto px-4">
+<div class="max-w-4xl mx-auto bg-beige rounded-2xl overflow-hidden shadow-xl">
+<div class="md:flex">
+<div class="md:w-1/2 bg-blush p-10 text-white flex flex-col justify-center">
+<h2 class="font-heading text-3xl font-bold mb-6">Book Your Appointment</h2>
+<p class="mb-6">Quick and easy booking options via WhatsApp or SMS:</p>
+<div class="space-y-4">
+<a class="bg-white text-blush py-3 px-6 rounded-full font-bold flex items-center justify-center hover:bg-rosegold hover:text-white transition-colors" href="https://wa.me/27824128725">
+<i class="fab fa-whatsapp mr-3 text-2xl"></i>
+                                Chat on WhatsApp
+                            </a>
+<a class="bg-white text-blush py-3 px-6 rounded-full font-bold flex items-center justify-center hover:bg-rosegold hover:text-white transition-colors" href="sms:0824128725?body=Hi%20Penny,%20I'd%20like%20to%20book%20an%20appointment">
+<i class="fas fa-comment-alt mr-3 text-2xl"></i>
+                                Send SMS
+                            </a>
+</div>
+<div class="mt-8 bg-white p-4 rounded-lg flex items-center">
+<div class="flex-shrink-0">
+<img alt="WhatsApp QR Code" class="w-16 h-16 rounded-lg" src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&amp;data=https://wa.me/27824128725"/>
+</div>
+<div class="ml-4">
+<h3 class="font-bold text-charcoal">Scan to Book</h3>
+<p class="text-gray-600 text-sm">Point your camera at the QR code</p>
+</div>
+</div>
+</div>
+<div class="md:w-1/2 p-10">
+<h3 class="font-heading text-xl font-bold mb-6">Or Request A Call Back</h3>
+<form>
+<div class="mb-4">
+<input class="w-full p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blush focus:border-transparent" placeholder="Your Name" type="text"/>
+</div>
+<div class="mb-4">
+<input class="w-full p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blush focus:border-transparent" placeholder="Phone Number" type="tel"/>
+</div>
+<div class="mb-4">
+<select class="w-full p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blush focus:border-transparent">
+<option>Select Treatment</option>
+<option>Waxing</option>
+<option>Nails</option>
+<option>Facials</option>
+<option>Permanent Makeup</option>
+</select>
+</div>
+<div class="mb-4">
+<textarea class="w-full p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blush focus:border-transparent" placeholder="Preferred Date &amp; Time" rows="3"></textarea>
+</div>
+<button class="w-full bg-blush text-white py-3 px-6 rounded-full font-bold hover:bg-rosegold transition-colors" type="submit">
+                                Request Appointment
+                            </button>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- About Section -->
+<section class="py-20 bg-beige" id="about">
+<div class="container mx-auto px-4">
+<div class="flex flex-col md:flex-row items-center">
+<div class="md:w-1/2 mb-10 md:mb-0 md:pr-12">
+<div class="relative aspect-w-4 aspect-h-3 rounded-xl overflow-hidden shadow-lg">
+<img alt="Penny Marshall Beauty Salon Interior" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent flex flex-col justify-end p-6">
+<h3 class="font-heading text-white text-2xl font-bold">15+ Years Experience</h3>
+</div>
+</div>
+</div>
+<div class="md:w-1/2">
+<h2 class="font-heading text-3xl md:text-4xl font-bold text-charcoal mb-6">About Our Salon</h2>
+<p class="mb-6">Founded by Penny Marshall, our boutique salon brings over 15 years of expertise in aesthetic and beauty treatments to the heart of Pietermaritzburg. As a fully accredited beauty specialist, Penny has cultivated a sanctuary where luxury meets exceptional service.</p>
+<p class="mb-6">We pride ourselves on merging timeless beauty traditions with cutting-edge techniques, using only premium, dermatologically-approved products. Our intimate salon setting ensures each client receives personalized attention in a tranquil, professional environment.</p>
+<p class="mb-6">With ongoing training in the latest international methodologies, we offer treatments that are both innovative and results-driven, while maintaining that personal touch that makes every visit feel special.</p>
+<div class="mb-6">
+<h3 class="font-heading text-xl font-semibold mb-3">Our Certifications</h3>
+<div class="flex flex-wrap gap-2">
+<span class="bg-rosegold bg-opacity-10 text-rosegold rounded-full px-4 py-2">CIBTAC</span>
+<span class="bg-rosegold bg-opacity-10 text-rosegold rounded-full px-4 py-2">ITEC</span>
+<span class="bg-rosegold bg-opacity-10 text-rosegold rounded-full px-4 py-2">BABTAC</span>
+<span class="bg-rosegold bg-opacity-10 text-rosegold rounded-full px-4 py-2">Biotek</span>
+<span class="bg-rosegold bg-opacity-10 text-rosegold rounded-full px-4 py-2">Cherrylink</span>
+</div>
+</div>
+<div>
+<h3 class="font-heading text-xl font-semibold mb-3">Premium Products</h3>
+<p class="mb-4">We exclusively use premium brands to ensure the highest quality results for our clients:</p>
+<div class="grid grid-cols-2 gap-4">
+<div class="flex items-center">
+<div class="w-12 h-12 rounded-xl bg-gray-100 border border-blush flex items-center justify-center">
+<i class="fas fa-leaf text-gray-500"></i>
+</div>
+<span class="ml-3 font-medium">Dermastine</span>
+</div>
+<div class="flex items-center">
+<div class="w-12 h-12 rounded-xl bg-gray-100 border border-blush flex items-center justify-center">
+<i class="fas fa-spa text-gray-500"></i>
+</div>
+<span class="ml-3 font-medium">NeoStrata</span>
+</div>
+<div class="flex items-center">
+<div class="w-12 h-12 rounded-xl bg-gray-100 border border-blush flex items-center justify-center">
+<i class="fas fa-flask text-gray-500"></i>
+</div>
+<span class="ml-3 font-medium">RégimA</span>
+</div>
+<div class="flex items-center">
+<div class="w-12 h-12 rounded-xl bg-gray-100 border border-blush flex items-center justify-center">
+<i class="fas fa-sun text-gray-500"></i>
+</div>
+<span class="ml-3 font-medium">Heliocare</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Gallery Section -->
+<section class="py-20 bg-ivory">
+<div class="container mx-auto px-4">
+<div class="text-center mb-16">
+<h2 class="font-heading text-3xl md:text-4xl font-bold text-charcoal mb-4">Our Gallery</h2>
+<p class="text-lg text-gray-600 max-w-2xl mx-auto">Take a glimpse of our beautiful salon space and transformations</p>
+<div class="h-1 w-20 bg-blush mx-auto mt-4"></div>
+</div>
+<div class="gallery-grid">
+<div class="gallery-item bg-gray-200 flex items-center justify-center">
+<i class="fas fa-spa text-gray-400 text-4xl"></i>
+</div>
+<div class="gallery-item bg-gray-200 flex items-center justify-center">
+<i class="fas fa-hand-sparkles text-gray-400 text-4xl"></i>
+</div>
+<div class="gallery-item bg-gray-200 flex items-center justify-center">
+<i class="fas fa-user-circle text-gray-400 text-4xl"></i>
+</div>
+<div class="gallery-item bg-gray-200 flex items-center justify-center">
+<i class="fas fa-eye text-gray-400 text-4xl"></i>
+</div>
+<div class="gallery-item bg-gray-200 flex items-center justify-center">
+<i class="fas fa-couch text-gray-400 text-4xl"></i>
+</div>
+<div class="gallery-item bg-gray-200 flex items-center justify-center">
+<i class="fas fa-hot-tub text-gray-400 text-4xl"></i>
+</div>
+<div class="gallery-item bg-gray-200 flex items-center justify-center">
+<i class="fas fa-paint-brush text-gray-400 text-4xl"></i>
+</div>
+<div class="gallery-item bg-gray-200 flex items-center justify-center">
+<i class="fas fa-toes text-gray-400 text-4xl"></i>
+</div>
+</div>
+</div>
+</section>
+<!-- Promotions & Offers -->
+<section class="py-20 bg-blush bg-opacity-20" id="offers">
+<div class="container mx-auto px-4">
+<div class="text-center mb-16">
+<h2 class="font-heading text-3xl md:text-4xl font-bold text-charcoal mb-4">Special Offers</h2>
+<p class="text-lg text-gray-600 max-w-2xl mx-auto">Discover our current promotions and savings opportunities</p>
+<div class="h-1 w-20 bg-blush mx-auto mt-4"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="offer-card rounded-xl p-8 bg-white relative">
+<div class="absolute top-4 right-4 w-14 h-14 rounded-full bg-rosegold flex items-center justify-center text-white">
+<span class="font-bold">10%</span>
+</div>
+<h3 class="font-heading text-xl font-bold mb-4">Bundle &amp; Save Packages</h3>
+<p class="mb-6">Combine multiple services and enjoy significant discounts on your favorite treatments.</p>
+<a class="text-blush font-bold hover:text-rosegold transition-colors" href="#book">
+                        Book Package <i class="fas fa-arrow-right ml-2"></i>
+</a>
+</div>
+<div class="offer-card rounded-xl p-8 bg-white relative">
+<div class="absolute top-4 right-4 w-14 h-14 rounded-full bg-rosegold flex items-center justify-center text-white">
+<i class="fas fa-gift text-xl"></i>
+</div>
+<h3 class="font-heading text-xl font-bold mb-4">Loyalty Program</h3>
+<p class="mb-6">Every 5th treatment is on us! Join our loyalty program for consistent rewards.</p>
+<a class="text-blush font-bold hover:text-rosegold transition-colors" href="#contact">
+                        Join Now <i class="fas fa-arrow-right ml-2"></i>
+</a>
+</div>
+<div class="offer-card rounded-xl p-8 bg-white relative">
+<div class="absolute top-4 right-4 w-14 h-14 rounded-full bg-rosegold flex items-center justify-center text-white">
+<i class="fas fa-user-graduate text-xl"></i>
+</div>
+<h3 class="font-heading text-xl font-bold mb-4">Student &amp; Pensioner Discount</h3>
+<p class="mb-6">Tuesdays only: 15% off all treatments for students and pensioners with valid ID.</p>
+<a class="text-blush font-bold hover:text-rosegold transition-colors" href="#book">
+                        Book Tuesday <i class="fas fa-arrow-right ml-2"></i>
+</a>
+</div>
+<div class="offer-card rounded-xl p-8 bg-white relative md:col-span-2 lg:col-span-3">
+<div class="absolute top-4 right-4 w-14 h-14 rounded-full bg-rosegold flex items-center justify-center text-white">
+<i class="fas fa-ring text-xl"></i>
+</div>
+<h3 class="font-heading text-2xl font-bold mb-4">Pre-Wedding &amp; Special Event Packages</h3>
+<p class="mb-6 text-lg">Look your absolute best for your special day with our comprehensive beauty packages designed for brides and event attendees.</p>
+<a class="text-blush font-bold text-lg hover:text-rosegold transition-colors" href="#contact">
+                        Plan Your Special Day <i class="fas fa-arrow-right ml-2"></i>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Testimonials -->
+<section class="py-20 bg-beige">
+<div class="container mx-auto px-4">
+<div class="text-center mb-16">
+<h2 class="font-heading text-3xl md:text-4xl font-bold text-charcoal mb-4">Client Testimonials</h2>
+<p class="text-lg text-gray-600 max-w-2xl mx-auto">What our valued clients say about their experience</p>
+<div class="h-1 w-20 bg-blush mx-auto mt-4"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="testimonial-card rounded-xl p-8">
+<div class="flex items-center mb-4">
+<div class="w-16 h-16 rounded-full bg-gray-200 border border-blush flex items-center justify-center text-gray-500">
+<i class="fas fa-user text-2xl"></i>
+</div>
+<div class="ml-4">
+<h4 class="font-bold">Sarah K.</h4>
+<div class="flex text-rosegold">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+</div>
+</div>
+<p class="italic">"Penny's microblading work transformed my eyebrows! The attention to detail is exceptional, and I couldn't be happier with the natural-looking results."</p>
+</div>
+<div class="testimonial-card rounded-xl p-8">
+<div class="flex items-center mb-4">
+<div class="w-16 h-16 rounded-full bg-gray-200 border border-blush flex items-center justify-center text-gray-500">
+<i class="fas fa-user text-2xl"></i>
+</div>
+<div class="ml-4">
+<h4 class="font-bold">James T.</h4>
+<div class="flex text-rosegold">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+</div>
+</div>
+<p class="italic">"The paraffin pedicure was absolute heaven for my tired feet. The salon atmosphere is so calming, and I always leave feeling completely rejuvenated."</p>
+</div>
+<div class="testimonial-card rounded-xl p-8">
+<div class="flex items-center mb-4">
+<div class="w-16 h-16 rounded-full bg-gray-200 border border-blush flex items-center justify-center text-gray-500">
+<i class="fas fa-user text-2xl"></i>
+</div>
+<div class="ml-4">
+<h4 class="font-bold">Michelle R.</h4>
+<div class="flex text-rosegold">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+</div>
+</div>
+<p class="italic">"As a bride-to-be, Penny created the perfect pre-wedding beauty package for me. My skin has never looked better, and the staff went above and beyond."</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact & Location -->
+<section class="py-20 bg-ivory" id="contact">
+<div class="container mx-auto px-4">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+<div>
+<h2 class="font-heading text-3xl md:text-4xl font-bold text-charcoal mb-6">Contact &amp; Location</h2>
+<div class="space-y-6 mb-8">
+<div class="flex items-start">
+<div class="w-12 h-12 rounded-full bg-blush bg-opacity-20 flex items-center justify-center mr-4">
+<i class="fas fa-map-marker-alt text-blush text-xl"></i>
+</div>
+<div>
+<h3 class="font-bold text-lg mb-1">Address</h3>
+<p>45 Montgomery Drive, Athlone<br/>Pietermaritzburg, 3201<br/>South Africa</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-12 h-12 rounded-full bg-blush bg-opacity-20 flex items-center justify-center mr-4">
+<i class="fas fa-clock text-blush text-xl"></i>
+</div>
+<div>
+<h3 class="font-bold text-lg mb-1">Operating Hours</h3>
+<p>Monday - Friday: 8am - 5pm<br/>Saturday: By Appointment<br/>Sunday: Closed</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-12 h-12 rounded-full bg-blush bg-opacity-20 flex items-center justify-center mr-4">
+<i class="fas fa-phone-alt text-blush text-xl"></i>
+</div>
+<div>
+<h3 class="font-bold text-lg mb-1">Phone</h3>
+<p><a class="hover:text-blush" href="tel:0824128725">082 412 8725</a></p>
+</div>
+</div>
+</div>
+<div class="bg-beige p-6 rounded-xl">
+<h3 class="font-heading text-xl font-bold mb-4">Follow Us</h3>
+<div class="flex space-x-4">
+<a class="social-icon text-rosegold hover:text-blush text-2xl" href="https://instagram.com/pennymarshallbeauty">
+<i class="fab fa-instagram"></i>
+</a>
+<a class="social-icon text-rosegold hover:text-blush text-2xl" href="#">
+<i class="fab fa-facebook"></i>
+</a>
+</div>
+</div>
+</div>
+<div>
+<div class="map-container">
+<div class="bg-gray-200 border-2 border-dashed rounded-xl w-full h-full"></div>
+</div>
+<div class="mt-8 bg-beige rounded-xl p-6">
+<h3 class="font-heading text-xl font-bold mb-4">Direct WhatsApp Access</h3>
+<p class="mb-4">For the fastest response, message us directly on WhatsApp:</p>
+<a class="bg-blush text-ivory py-3 px-6 rounded-full font-bold inline-flex items-center hover:bg-rosegold transition-colors" href="https://wa.me/27824128725">
+<i class="fab fa-whatsapp mr-3 text-2xl"></i>
+                            Chat Now on WhatsApp
+                        </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Payments & Policies -->
+<section class="py-16 bg-beige">
+<div class="container mx-auto px-4">
+<div class="max-w-4xl mx-auto text-center">
+<h2 class="font-heading text-3xl font-bold mb-8">Payments &amp; Policies</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="bg-ivory p-8 rounded-xl">
+<div class="w-14 h-14 rounded-full bg-blush flex items-center justify-center mx-auto mb-6">
+<i class="fas fa-credit-card text-white text-xl"></i>
+</div>
+<h3 class="font-heading text-xl font-bold mb-4">Payment Options</h3>
+<p class="mb-2">We accept various payment methods for your convenience:</p>
+<ul class="text-left space-y-2 max-w-xs mx-auto">
+<li class="flex items-center">
+<i class="fas fa-check-circle text-blush mr-3"></i>
+                                Cash Payments
+                            </li>
+<li class="flex items-center">
+<i class="fas fa-check-circle text-blush mr-3"></i>
+                                EFT (Electronic Funds Transfer)
+                            </li>
+<li class="flex items-center">
+<i class="fas fa-check-circle text-blush mr-3"></i>
+                                SnapScan (Coming Soon)
+                            </li>
+<li class="flex items-center">
+<i class="fas fa-check-circle text-blush mr-3"></i>
+                                Yoco Card Payments (Coming Soon)
+                            </li>
+</ul>
+</div>
+<div class="bg-ivory p-8 rounded-xl">
+<div class="w-14 h-14 rounded-full bg-blush flex items-center justify-center mx-auto mb-6">
+<i class="fas fa-clipboard-list text-white text-xl"></i>
+</div>
+<h3 class="font-heading text-xl font-bold mb-4">Our Policies</h3>
+<div class="space-y-4 text-left max-w-xs mx-auto">
+<p class="flex items-start">
+<i class="fas fa-clock text-rosegold mt-1 mr-3"></i>
+                                Please arrive 5-10 minutes early to relax before your treatment
+                            </p>
+<p class="flex items-start">
+<i class="fas fa-ban text-rosegold mt-1 mr-3"></i>
+                                24-hour cancellation notice required to avoid fees
+                            </p>
+<p class="flex items-start">
+<i class="fas fa-calendar-alt text-rosegold mt-1 mr-3"></i>
+                                Late arrivals may result in reduced treatment time
+                            </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-charcoal text-ivory py-16">
+<div class="container mx-auto px-4">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+<div>
+<h3 class="font-heading text-xl font-bold mb-6">Penny Marshall<span class="text-blush">.</span></h3>
+<p class="mb-6">Professional aesthetics and beauty treatments in Pietermaritzburg, South Africa.</p>
+<div class="flex space-x-4">
+<a class="social-icon text-ivory hover:text-blush text-xl" href="https://instagram.com/pennymarshallbeauty">
+<i class="fab fa-instagram"></i>
+</a>
+<a class="social-icon text-ivory hover:text-blush text-xl" href="#">
+<i class="fab fa-facebook"></i>
+</a>
+<a class="social-icon text-ivory hover:text-blush text-xl" href="https://wa.me/27824128725">
+<i class="fab fa-whatsapp"></i>
+</a>
+</div>
+</div>
+<div>
+<h4 class="font-bold text-lg mb-6">Treatments</h4>
+<ul class="space-y-3">
+<li><a class="hover:text-blush transition-colors" href="#treatments">Permanent Makeup</a></li>
+<li><a class="hover:text-blush transition-colors" href="#treatments">Waxing</a></li>
+<li><a class="hover:text-blush transition-colors" href="#treatments">Nail Treatments</a></li>
+<li><a class="hover:text-blush transition-colors" href="#treatments">Facials &amp; Skin Care</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-lg mb-6">Quick Links</h4>
+<ul class="space-y-3">
+<li><a class="hover:text-blush transition-colors" href="#book">Book Appointment</a></li>
+<li><a class="hover:text-blush transition-colors" href="#about">About Us</a></li>
+<li><a class="hover:text-blush transition-colors" href="#offers">Special Offers</a></li>
+<li><a class="hover:text-blush transition-colors" href="#contact">Contact</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-lg mb-6">Contact</h4>
+<ul class="space-y-3">
+<li class="flex items-start">
+<i class="fas fa-map-marker-alt text-blush mr-3 mt-1"></i>
+                            45 Montgomery Drive, Athlone
+                        </li>
+<li class="flex items-start">
+<i class="fas fa-phone-alt text-blush mr-3 mt-1"></i>
+<a class="hover:text-blush" href="tel:0824128725">082 412 8725</a>
+</li>
+<li class="flex items-start">
+<i class="fab fa-whatsapp text-blush mr-3 mt-1"></i>
+<a class="hover:text-blush" href="https://wa.me/27824128725">WhatsApp Us</a>
+</li>
+<li class="flex items-start">
+<i class="fas fa-envelope text-blush mr-3 mt-1"></i>
+<a class="hover:text-blush" href="mailto:info@pennymarshall.co.za">info@pennymarshall.co.za</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="border-t border-gray-700 mt-16 pt-8 text-center text-gray-400">
+<p>© 2023 Penny Marshall Aesthetics &amp; Beauty. All rights reserved.</p>
+</div>
+</div>
+</footer>
+
+</body>
+<script src="script.js"></script>
+</html>
